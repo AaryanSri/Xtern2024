@@ -22,3 +22,15 @@ It is probably best to deploy this model to the universities with the most data.
 # Technical Implications
 
 Our model needs more data about more universities and more students if it will get more accurate in its predictions and findings. More specifically, it needs to be finetuned on under-utilized university data to get better overall results and feedback.
+
+# Model Selection, Training, and Testing
+
+I decided to go with a Classification Tree Model since we are dealing with categorizing known products based on unknown data that we are training our model off of. This can lead to good predictions without a very complicated structure like a CNN. Then, I transformed all non-numerical data like year and college into numerical data to better train the model. The rest required just adding the trained model and the results into the tree, and then judging the accuracy by comparing the predictions with the tested results from the dataset.
+
+# The Results
+
+The model surprisingly well. I got an overall accuracy of 67%, with the most accurate results being Indiana Pork Chili, Ultimated Grilled Cheese Sandwich, and Indiana Corn on the Cob. 
+
+# Considerations
+
+To be honest, this is an accurate model that may be more efficient than human guessing. However, to better capitalize on its performance, we would need what any machine learning model needs: more data. My data breakdown in the beginning shows the biases and problems of the data and fixing these errors can guarantee better performance and save costs to the business.
